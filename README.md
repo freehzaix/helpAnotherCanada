@@ -6,6 +6,8 @@ En cours de développement...
 
     composer install
 
+### Générer la clé
+
     php artisan key:generate
 
 ### Migration et base de données

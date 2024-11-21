@@ -178,24 +178,20 @@
                     <div class="col-lg-6">
                         <div class="saas_features_img" data-bg-color="#E6D8F5">
                             <img src="assets/img/home-one/features_img_one.png" alt="">
-                            <div class="img_small wow fadeInUp">
-                                <img data-parallax='{"y": 40}' src="assets/img/home-one/features_img_two.png"
-                                    alt="">
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="saas_features_content wow fadeInLeft" data-wow-delay="0.2s">
-                            <h6>Programs in Alberta</h6>
-                            <h2>Youth Opportunities</h2>
+                            <h6>Programmes en Alberta</h6>
+                            <h2>Opportunités pour les jeunes</h2>
                             <p>
-                                Building the next generation of young leaders, creative and innovative employees, and entrepreneurs. Via Youth Opportunities, HOA aims:
+                                Bâtir la prochaine génération de jeunes leaders, d’employés créatifs et innovants et d’entrepreneurs. Via Youth Opportunities, HOA vise :
                                 <ul>
-                                    <li>To create an entrepreneurial culture for youth.</li>
-                                    <li>To stimulate the creation of an entrepreneurship ecosystem that supports young entrepreneurs in Alberta, across Canada and world-wide.</li>
-                                    <li>To remove barriers of employment and self-employment for underserved/under-represented youth by equipping them with marketable and transferrable knowledge and skills to create their own job or entrepreneurial opportunities (to boost competitiveness and employment).</li>
-                                    <li>To teach youth key transferrable and marketable skills they don’t learn at school, and help them transfer classroom concepts to real-world applications.</li>
-                                    <li>To advocate to governments, private sector, and civic interest groups for equal access to resources and opportunities, and to move forward with strategic policies that promote youth entrepreneurship.</li>
+                                    <li>Créer une culture entrepreneuriale pour les jeunes.</li>
+                                    <li>Stimuler la création d'un écosystème d'entrepreneuriat qui soutient les jeunes entrepreneurs en Alberta, partout au Canada et dans le monde.</li>
+                                    <li>Supprimer les obstacles à l'emploi et au travail indépendant pour les jeunes mal desservis/sous-représentés en les dotant de connaissances et de compétences commercialisables et transférables pour créer leur propre emploi ou des opportunités entrepreneuriales (afin de stimuler la compétitivité et l'emploi).</li>
+                                    <li>Enseigner aux jeunes des compétences clés transférables et commercialisables qu’ils n’apprennent pas à l’école, et les aider à transférer les concepts de la salle de classe vers des applications du monde réel.</li>
+                                    <li>Plaider auprès des gouvernements, du secteur privé et des groupes d’intérêt civique pour un accès égal aux ressources et aux opportunités, et aller de l’avant avec des politiques stratégiques qui favorisent l’entrepreneuriat des jeunes.</li>
                                 </ul>
                             </p>
                         </div>
@@ -205,18 +201,14 @@
                     <div class="col-lg-6">
                         <div class="saas_features_img" data-bg-color="#ADDEF0">
                             <img src="assets/img/home-one/analytic_img.png" alt="">
-                            <div class="img_small wow fadeInUp" data-wow-delay="0.2s">
-                                <img data-parallax='{"y": 40}' src="assets/img/home-one/analytic_small.png"
-                                    alt="">
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="saas_features_content wow fadeInRight" data-wow-delay="0.1s">
-                            <h6>Become a Certified Community Interpreter via HOA</h6>
-                            <h2>Why become a community interpreter?</h2>
+                            <h6>Devenez un interprète communautaire certifié via HOA</h6>
+                            <h2>Pourquoi devenir interprète communautaire ?</h2>
                             <p>
-                                Being fluent in English and one or more foreign languages may allow you to make a living by helping bridge communication between immigrants with language barriers and English-speaking professionals and service providers such as Immigration Officers, Police, Court, Medical Professionals, Schools, etc.
+                                Parler couramment l'anglais et une ou plusieurs langues étrangères peut vous permettre de gagner votre vie en aidant à établir une communication entre les immigrants confrontés à des barrières linguistiques et les professionnels et prestataires de services anglophones tels que les agents d'immigration, la police, les tribunaux, les professionnels de la santé, les écoles, etc.
                             </p>
                         </div>
                     </div>
@@ -229,11 +221,11 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="saas_features_content wow fadeInLeft" data-wow-delay="0.2s">
-                            <h6>Programs in Burundi</h6>
-                            <h2>Education Program (ESP)</h2>
+                            <h6>Programmes au Burundi</h6>
+                            <h2>Programme d'éducation (ESP)</h2>
                             <p>
-                                The ESP aims to empower Burundian kids and youth by providing support to access a descent education. HOA will provide school supplies, uniforms, school equipment, and other educational support to needy children attending elementary, junior & high school and University.<br />
-                                The youth will also receive financial literacy and entrepreneurial training in schools.
+                                L’ESP vise à autonomiser les enfants et les jeunes burundais en les aidant à accéder à une éducation décente. HOA fournira des fournitures scolaires, des uniformes, du matériel scolaire et d'autres soutiens éducatifs aux enfants dans le besoin qui fréquentent les écoles primaires, secondaires et universitaires.<br />
+                                Les jeunes recevront également des connaissances financières et une formation entrepreneuriale dans les écoles.
                             </p>
                         </div>
                     </div>
@@ -293,7 +285,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <p class="mb-0 wow fadeInUp" data-wow-delay="0.3s">© Copyright 2024, All Rights Reserved
-                                by <a href="#0">PicmaticWeb</a></p>
+                                by <a href="#0">AP2S Technologie</a></p>
                         </div>
                     </div>
                 </div>
