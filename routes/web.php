@@ -9,6 +9,7 @@ use App\Http\Controllers\MembreController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ReplayWebinaireController;
+use App\Http\Controllers\TypeDocumentController;
 use App\Http\Controllers\WebinaireController;
 use Illuminate\Support\Facades\Route;
 
@@ -39,6 +40,12 @@ Route::get('/annuaire/{id}/deapprouve', [AnnuaireController::class, 'deapprouve'
 Route::get('/annuaire/{id}/show', [AnnuaireController::class, 'show'])->middleware('auth');
 Route::post('/annuaire/update', [AnnuaireController::class, 'update'])->name('annuaire.update')->middleware('auth');
 
+// Document
+Route::get('/documents', [TypeDocumentController::class, 'index'])->name('document.index')->middleware('auth');
+Route::get('/document/create', [TypeDocumentController::class, 'create'])->name('document.create')->middleware('auth');
+Route::post('/document/store', [TypeDocumentController::class, 'store'])->name('document.store')->middleware('auth');
+Route::get('/document/{id}/show', [TypeDocumentController::class, 'show'])->middleware('auth');
+Route::get('/document/{id}/delete', [TypeDocumentController::class, 'delete'])->middleware('auth');
 
 // webinaire
 Route::get('/webinaires', [WebinaireController::class, 'index'])->name('webinaire.index')->middleware('auth');
@@ -48,8 +55,6 @@ Route::post('/webinaire/store', [WebinaireController::class, 'store'])->name('we
 // replay webinaire
 Route::get('/replay-webinaires', [ReplayWebinaireController::class, 'index'])->name('replay-webinaire.index')->middleware('auth');
 
-// document
-Route::get('/documents', [DocumentController::class, 'index'])->name('document.index')->middleware('auth');
 
 Route::get('/login/membre', [MembreController::class, 'form_login'])->name('login');
 Route::get('/register/membre', [MembreController::class, 'form_register'])->name('register.membre');

@@ -8,15 +8,20 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Mail\Mailables\Address;
 
 class ConfirmationInscription extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $user;
+
     /**
      * Create a new message instance.
      */
-    public function __construct() {}
+    public function __construct(Array $user) {
+        $this->user = $user;
+    }
 
     /**
      * Get the message envelope.
@@ -24,6 +29,7 @@ class ConfirmationInscription extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
+            from: new Address('no-reply@ajfas.ca', 'Administration du site'),
             subject: 'Confirmation d\'inscription',
         );
     }

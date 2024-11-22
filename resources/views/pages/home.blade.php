@@ -174,7 +174,7 @@
                         confiance dans notre annuaire en ligne.
                     </p>
                 </div>
-                <div class="row flex-row-reverse saas_features_item one">
+                <div class="row saas_features_item one">
                     <div class="col-lg-6">
                         <div class="saas_features_img" data-bg-color="#E6D8F5">
                             <img src="assets/img/home-one/features_img_one.png" alt="">
@@ -213,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row flex-row-reverse saas_features_item three">
+                <div class="row saas_features_item three">
                     <div class="col-lg-6">
                         <div class="saas_features_img" data-bg-color="#B3F7D5">
                             <img src="assets/img/home-one/Chart.png" alt="">

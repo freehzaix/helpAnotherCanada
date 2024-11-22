@@ -194,6 +194,9 @@
             <div class="container">
                 <div class="section_title text-center wow fadeInUp">
                     <h2>Notre équipe</h2>
+                    <p>
+                        Nous sommes une équipe diversifiée et passionnée, composée de professionnels issus de divers horizons, qui travaillent ensemble pour faire de HOA un lieu d’entraide et de partage.
+                    </p>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
