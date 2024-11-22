@@ -7,10 +7,10 @@
 <body>
     <h2>Confirmation d'inscription</h2>
     <p>
-        Bonjour et bienvenu(e) sur <a href="http://pwoi.ca">pwoi.ca</a>.
+        Bonjour {{ $user['nom'] }} et bienvenu(e) sur <a href="http://pwoi.ca">pwoi.ca</a>.
     </p>
     <p>
-        Vous inscription a bien été effectué. Vous pouvez vous connection sur le portail membre.
+        Votre inscription a bien été effectué. Vous pouvez vous connection sur le portail membre avec votre adresse mail {{ $user['email'] }} et le mot de passe que vous avez défini.
     </p>
     <p>Réception d'une prise de contact avec les éléments suivants :</p>
     <ul>

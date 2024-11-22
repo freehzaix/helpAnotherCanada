@@ -38,7 +38,7 @@ class ConseilAdminController extends Controller
         $user->role_id = 2;
         $user->save();
 
-        Mail::to('no-reply@ajfas.ca')->send(new ConfirmationInscription($request->except('_token')));
+        Mail::to($request->email)->send(new ConfirmationInscription($request->except('_token')));
 
         return redirect()->route('login.conseil')->with('status', 'Votre inscription a bien été effectué.');
     }

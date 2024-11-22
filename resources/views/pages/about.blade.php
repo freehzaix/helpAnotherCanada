@@ -127,9 +127,8 @@
         <section class="saas_about_area sec_padding">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                        <img data-parallax='{"x": 0, "y": 20, "from-scroll": 50, "distance": 0}' class="about_img"
-                            src="assets/img/about/about_img.jpg" alt="">
+                    <div class="col-lg-6 fadeInLeft" data-wow-delay="0.2s">
+                        <img class="about_img" src="assets/img/about/about_img.jpg" alt="">
                     </div>
                     <div class="col-lg-6">
                         <div class="saas_about_content wow fadeInRight" data-wow-delay="0.3s">
@@ -281,7 +280,7 @@
         <section class="testimonial_area_four sec_padding" data-bg-color="#F8F9FC">
             <div class="container">
                 <div class="section_title text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <h2>Don't just take our word for it</h2>
+                    <h2>Témoignages</h2>
                 </div>
             </div>
             <div class="testimonial_slider_two wow fadeInUp" data-wow-delay="0.4s">
@@ -379,30 +378,13 @@
                 <button class="nexts"><i class="icon-arrow-right2" aria-hidden="true"></i></button>
             </div>
         </section>
-        <section class="promo_area_three sec_padding">
-            <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="promo_content col-xl-8 text-center">
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s">Consult your business dream at affordable prices
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.3s">Unleash your financial possibilities by tapping
-                            into untapped opportunities and employing</p>
-                        <a href="#" class="saas_btn">
-                            <div class="btn_text"><span>Request a
-                                    Consultation</span><span>Request a
-                                    Consultation</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <footer class="footer_area_two footer_area_three footer_shap" data-bg-color="#12141D">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
                         <div class="f_widget f_about_widget wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="index.html" class="f_logo"><img src="assets/img/home-two/f_logo_w.png" alt=""></a>
+                            <a href="/" class="f_logo"><img src="assets/img/home-two/f_logo_w.png" alt=""></a>
                             <p>Help One Another vous offre les outils dont vous avez besoin pour collaborer, apprendre et grandir. Explorez nos webinaires, 
                                 rejoignez le portail des membres, ou trouvez des services de confiance dans notre annuaire en ligne.</p>
                             <ul class="list-unstyled f_social_icon">

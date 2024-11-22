@@ -38,7 +38,7 @@ class MembreController extends Controller
         $user->role_id = 1;
         $user->save();
 
-        Mail::to($request->email)->send(new ConfirmationInscription());
+        Mail::to($request->email)->send(new ConfirmationInscription($request->except('_token')));
 
         return redirect()->route('login')->with('status', 'Votre inscription a bien été effectué.');
     }
