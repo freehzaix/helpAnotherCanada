@@ -17,3 +17,4 @@ En cours de développement...
 ### Seeder
 
     php artisan db:seed --class=RoleSeeder
+    

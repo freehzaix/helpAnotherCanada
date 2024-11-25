@@ -13,20 +13,55 @@
         </div>
         <!-- Content Row -->
         <div class="row">
+
             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                 <div class="card shadow mb-4">
                     <!-- Card Body -->
                     <div class="card-body">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti, nihil, dolor
-                            soluta impedit
-                            perferendis odit maiores inventore quo voluptas nobis in. Minima nostrum necessitatibus
-                            dignissimos!
-                            Temporibus suscipit neque tempore.
+                            <h4>Total des membres</h4>
+                            <a href="#">{{ $nbMembre }}</a>
                         </p>
                     </div>
                 </div>
             </div>
+
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <div class="card shadow mb-4">
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <p>
+                            <h4>Total des administrateurs</h4>
+                            <a href="#">{{ $nbConseil }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <div class="card shadow mb-4">
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <p>
+                            <h4>Total des documents</h4>
+                            <a href="#">{{ $nbDocument }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <div class="card shadow mb-4">
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <p>
+                            <h4>Total des webinaires</h4>
+                            <a href="#">{{ $nbWebinaire }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>

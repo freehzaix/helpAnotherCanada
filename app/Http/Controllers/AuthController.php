@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Annuaire;
+use App\Models\TypeDocument;
 use App\Models\User;
+use App\Models\Webinaire;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -32,7 +35,13 @@ class AuthController extends Controller
     // dashboard
     public function dashboard()
     {
-        return view('dashboard');
+        $nbAnnuaire = Annuaire::all()->count();
+        $nbMembre = User::where('role_id', 1)->get()->count();
+        $nbConseil = User::where('role_id', 2)->get()->count();
+        $nbDocument = TypeDocument::all()->count();
+        $nbWebinaire = Webinaire::all()->count();
+
+        return view('dashboard', compact('nbAnnuaire', 'nbMembre', 'nbConseil', 'nbDocument', 'nbWebinaire'));
     }
 
     // profile
